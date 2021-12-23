@@ -180,25 +180,43 @@ a
     justify-content: center;
     align-items: center;
 }
-.allcards
+.cards
 {
-    border:2px solid red;
+    /* border:2px solid red; */
     display:flex;
+    margin: 97px;
+    margin-top: 10px;
 
 }
-.cards1, .card2 , .cards3, .cards4
+.cards1, .cards2 , .cards3, .cards4
 {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 21px;
+    
 }
 
-.cards img
+.card-info-info
 {
-    height:272px;
+    /* text-align:center; */
+    padding:20px;
 }
 
+.card-info-heading
+{
+    padding:1vw;
+    font-size: 24px;
+}
 
-
+.third-section img
+{
+    width: 313px;
+    height: 400px;
+}
+.third-section button
+{
+    padding:5px;
+}
