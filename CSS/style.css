@@ -1,0 +1,100 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+/* INtroduction */
+.introduction
+{
+    padding-left:163px;
+    background-color: blanchedalmond;
+    height: 43vw;
+}
+
+/* header */
+.header
+{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 140px;
+    padding-top: 36px;
+    margin-left:143px;
+}
+.nav
+{
+    /* border: 2px solid black; */
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.company-name
+{
+    position: relative;
+    bottom: 13px;
+    right: 236px;
+    font-size: 36px;
+}
+
+.nav-items
+{
+    /* border:2px solid red; */
+    list-style: none;
+    list-style: none;
+    padding: 16px;
+}
+a
+{
+    text-decoration: none;
+}
+
+
+/* TEXT AREA */
+.textarea
+{
+     display: flex;
+    flex-direction: column;
+    margin-left: 206px;
+    width: 481px;
+    height: 338px;
+    /* border: 2px solid black; */
+    margin-top: 31px;
+}
+
+.heading
+{
+    /* border:2px solid red; */
+    font-size: 37px;
+    padding-bottom: 15px;
+    /* width: 36vw; */
+}
+.info-text
+{
+    /* border:2px solid red; */
+    font-size: 19px;
+    padding-bottom: 15px;
+    /* width: 36vw; */
+}
+.buttons
+{
+    /* border:2px solid red; */
+    padding-bottom: 15px;
+    /* width: 36vw; */
+}
+
+.btn1
+{
+    background-color:rgb(219, 199, 13) ;
+    color:black;
+    padding:10px;
+    border:none;
+}
+.btn2
+{
+    background-color:rgb(47, 34, 109) ;
+    color:white;
+    padding:10px;
+    border:none;    
+}
