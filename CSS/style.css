@@ -220,3 +220,61 @@ a
 {
     padding:5px;
 }
+
+/* THIRD SECTION */
+.pricing
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:200px;
+    margin-right: 200px;
+    text-align: center;
+}
+
+.content1, .content2, .content3
+{
+    padding-left:100px;
+    padding-right:100px;
+
+}
+.content1
+{
+    border-right:3px solid rgba(0, 0, 0, 0.507);
+}
+
+.content2
+{
+    border-right:3px solid rgba(0, 0, 0, 0.507);
+}
+
+.head
+{
+    padding-bottom:10px;
+}
+.sub-head
+{
+    padding-bottom:10px;
+    font-size: 10px;
+}
+.pricing button
+{
+    background-color: rgb(47, 34, 109);
+    color: white;
+    padding: 3px;
+    padding-left: 29px;
+    padding-right: 29px;
+    border: none;
+}
+.content-content
+{
+    margin-bottom: 26px;
+    line-height: 31px;
+}
