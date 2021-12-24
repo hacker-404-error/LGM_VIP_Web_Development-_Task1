@@ -241,9 +241,10 @@ a
 
 .content1, .content2, .content3
 {
-    padding-left:100px;
-    padding-right:100px;
-
+    padding-left: 100px;
+    padding-right: 100px;
+    /* padding-bottom: 100px; */
+    margin-bottom: 98px;
 }
 .content1
 {
@@ -277,4 +278,51 @@ a
 {
     margin-bottom: 26px;
     line-height: 31px;
+}
+
+/* VEDIO PROJECTS */
+.vedio
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #5b036f;
+    
+}
+.vedios
+{
+    display:flex;
+    margin: 10px;
+}
+.v1, .v2, .v3
+{
+    display: flex;
+    flex-direction: column;
+    padding: 22px;
+    position:relative;
+}
+.controls
+{
+    display:flex;
+    flex-direction: row;
+}
+.title
+{
+    margin-right: 21vw;
+
+}
+.absolute
+{
+    position: absolute;
+    top: 115px;
+    left: 201px;
+}
+.absolute img
+{
+    filter: invert(70%);
+}
+.vedios button
+{
+    border:none;
 }
