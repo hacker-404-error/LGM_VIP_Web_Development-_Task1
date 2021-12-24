@@ -466,6 +466,7 @@ img {vertical-align: middle;}
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position:relative;
 }
 .section
 {
@@ -495,8 +496,8 @@ img {vertical-align: middle;}
 }
 .section img
 {
-    width: 204px;
-    height: 204px;
+    width: 240px;
+    height: 240px;
     border-radius: 65%;
 }
 .section1-card1, .section1-card2, .section1-card3
@@ -507,6 +508,152 @@ img {vertical-align: middle;}
 {
     padding-right:70px;
 }
+.accounthover1
+{
+    position: absolute;
+    top: 14vw;
+    right: 67vw;
+    opacity:0;
+}
+.accounthover2
+{
+    position: absolute;
+    top: 14vw;
+    right: 46vw;
+    opacity:0;
+}
+.accounthover3
+{
+    position: absolute;
+    top: 14vw;
+    right: 25vw;
+    opacity:0;
+}
+.accounthover4
+{
+    position: absolute;
+    top: 38vw;
+    right: 67vw;
+    opacity:0;
+}
+.accounthover5
+{
+    position: absolute;
+    top: 38vw;
+    right: 46vw;
+    opacity:0;
+}
+.accounthover6
+{
+    position: absolute;
+    top: 38vw;
+    right: 25vw;
+    opacity:0;
+}
+
+.account img, .account2 img
+{
+    width: 80px;
+    height: 80px;
+}
+.account2
+{
+    padding-left: 49px;
+}
 
 
-/* LIFE IN ZIPPY */
+.card1:hover
+{
+    background-image: url("/Images/puple.jpg");
+    opacity:1;
+    border-radius: 65%;
+    /* transition: .5s ease; */
+}
+.card1:hover img
+{
+    opacity: 0.69;
+    border-radius: 65%;
+    transition: .5s ease;
+}
+.accounthover1:hover
+{
+    position: absolute;
+    top: 14vw;
+    right: 67vw;
+    opacity:1;
+    transition: .5s ease;
+}
+.accounthover4:hover
+{
+    position: absolute;
+    top: 38vw;
+    right: 67vw;
+    opacity:1;
+    transition: .5s ease;
+}
+
+
+
+.card2:hover
+{
+    background-image: url("/Images/puple.jpg");
+    opacity:1;
+    border-radius: 65%;
+    /* transition: .5s ease; */
+}
+.card2:hover img
+{
+    opacity: 0.69;
+    border-radius: 65%;
+    transition: .5s ease;
+}
+.accounthover2:hover
+{
+    position: absolute;
+    top: 14vw;
+    right: 46vw;
+    opacity:1;
+    transition: .5s ease;
+}
+.accounthover5:hover
+{
+    position: absolute;
+    top: 38vw;
+    right: 46vw;
+    opacity:1;
+    transition: .5s ease;
+}
+
+
+
+
+
+.card3:hover
+{
+    background-image: url("/Images/puple.jpg");
+    opacity:1;
+    border-radius: 65%;
+    /* transition: .5s ease; */
+}
+.card3:hover img
+{
+    opacity: 0.69;
+    border-radius: 65%;
+    transition: .5s ease;
+}
+.accounthover3:hover
+{
+    position: absolute;
+    top: 14vw;
+    right: 25vw;
+    opacity:1;
+    transition: .5s ease;
+}
+.accounthover6:hover
+{
+    position: absolute;
+    top: 38vw;
+    right: 25vw;
+    opacity:1;
+    transition: .5s ease;
+}
