@@ -297,7 +297,7 @@ img {vertical-align: middle;}
 {
     /* border:2px solid red; */
     display:flex;
-    margin: 97px;
+    margin: 103px;
     margin-top: 10px;
 
 }
@@ -308,7 +308,7 @@ img {vertical-align: middle;}
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-bottom: 21px;
+    padding-bottom: 30px;
     
 }
 
@@ -401,7 +401,9 @@ img {vertical-align: middle;}
     justify-content: center;
     align-items: center;
     background-color: #5b036f;
-    
+    color:white;
+    height: 38vw;
+
 }
 .vedios
 {
@@ -427,15 +429,84 @@ img {vertical-align: middle;}
 }
 .absolute
 {
+    cursor: pointer;
     position: absolute;
     top: 115px;
     left: 201px;
 }
 .absolute img
 {
-    filter: invert(70%);
+    filter: invert(50%);
 }
 .vedios button
 {
     border:none;
 }
+.vedio .head
+{
+    margin-top:64px;
+    font-size: 37px;
+    padding-bottom: 15px;
+}
+
+
+
+/* ZIPPY TEAM */
+.zippyteamheading
+{
+    font-size: 37px;
+    padding-bottom: 35px;
+    /* width: 36vw; */
+    margin-top: 60px;
+    /* border: 2px solid red; */
+}
+.zippyteam
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section1, .section2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+}
+.card1, .card2, .card3
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.name, .information
+{
+    text-align: center;
+    padding-top: 15px;
+}
+.section img
+{
+    width: 204px;
+    height: 204px;
+    border-radius: 65%;
+}
+.section1-card1, .section1-card2, .section1-card3
+{
+    padding-right:70px;
+}
+.section2-card1, .section2-card2, .section2-card3
+{
+    padding-right:70px;
+}
+
+
+/* LIFE IN ZIPPY */
