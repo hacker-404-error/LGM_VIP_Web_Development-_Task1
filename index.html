@@ -8,44 +8,145 @@
     <link rel="stylesheet" href="CSS/w3.css">
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="./JS/script.js"></script>
 </head>
 <body>
     <!-- FIRST SECTIION -->
-    <div class="introduction">
-        <!-- HEADER -->
-        <div class="header">
-            <span class="company-name">
-                ZIPPY
-            </span>
-            <ul class="nav">
-                <li class="nav-items"><a href="#">Home</a>
-                <li class="nav-items"><a href="#">Project</a>
-                <li class="nav-items"><a href="#">Pricing</a>
-                <li class="nav-items"><a href="#">Team</a>
-                <li class="nav-items"><a href="#">BLog</a>
-                <li class="nav-items"><a href="#">Contact</a>
-            </ul>
+    <div class="slideshow-container">
+        <div class="mySlides w3-animate-fading" style="display: block;">
+            <div class="introduction">
+                <!-- HEADER -->
+                <div class="header">
+                    <span class="company-name">
+                        ZIPPY
+                    </span>
+                    <ul class="nav">
+                        <li class="nav-items"><a href="#">Home</a>
+                        <li class="nav-items"><a href="#">Project</a>
+                        <li class="nav-items"><a href="#">Pricing</a>
+                        <li class="nav-items"><a href="#">Team</a>
+                        <li class="nav-items"><a href="#">BLog</a>
+                        <li class="nav-items"><a href="#">Contact</a>
+                    </ul>
+                </div>
+        
+        
+                <!-- TEXT AREA -->
+                <div class="textarea">
+                    <div class="heading">
+                        One page promising to fill all your needs!
+                    </div>
+                    <div class="info-text">
+                        this is Photoshop version of Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum.
+                    </div>
+                    <div class="buttons">
+                        <button class="btn1">
+                            <a href="#">LEARN MORE</a>
+                        </button>
+                        <button class="btn2">
+                            <a href="#">LEARN MORE</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
         </div>
+        
 
 
-        <!-- TEXT AREA -->
-        <div class="textarea">
-            <div class="heading">
-                One page promising to fill all your needs!
-            </div>
-            <div class="info-text">
-                this is Photoshop version of Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum.
-            </div>
-            <div class="buttons">
-                <button class="btn1">
-                    <a href="#">LEARN MORE</a>
-                </button>
-                <button class="btn2">
-                    <a href="#">LEARN MORE</a>
-                </button>
+        <div class="mySlides w3-animate-fading">
+            <div class="introduction2">
+                <!-- HEADER -->
+                <div class="header">
+                    <span class="company-name">
+                        ZIPPY
+                    </span>
+                    <ul class="nav">
+                        <li class="nav-items"><a href="#">Home</a>
+                        <li class="nav-items"><a href="#">Project</a>
+                        <li class="nav-items"><a href="#">Pricing</a>
+                        <li class="nav-items"><a href="#">Team</a>
+                        <li class="nav-items"><a href="#">BLog</a>
+                        <li class="nav-items"><a href="#">Contact</a>
+                    </ul>
+                </div>
+        
+        
+                <!-- TEXT AREA -->
+                <div class="textarea">
+                    <div class="heading">
+                        One page promising to fill all your needs!
+                    </div>
+                    <div class="info-text">
+                        this is Photoshop version of Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum.
+                    </div>
+                    <div class="buttons">
+                        <button class="btn1">
+                            <a href="#">LEARN MORE</a>
+                        </button>
+                        <button class="btn2">
+                            <a href="#">LEARN MORE</a>
+                        </button>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
+        
+
+
+
+
+        <div class="mySlides w3-animate-fading">
+            <div class="introduction3">
+                <!-- HEADER -->
+                <div class="header">
+                    <span class="company-name">
+                        ZIPPY
+                    </span>
+                    <ul class="nav">
+                        <li class="nav-items"><a href="#">Home</a>
+                        <li class="nav-items"><a href="#">Project</a>
+                        <li class="nav-items"><a href="#">Pricing</a>
+                        <li class="nav-items"><a href="#">Team</a>
+                        <li class="nav-items"><a href="#">BLog</a>
+                        <li class="nav-items"><a href="#">Contact</a>
+                    </ul>
+                </div>
+        
+        
+                <!-- TEXT AREA -->
+                <div class="textarea">
+                    <div class="heading">
+                        One page promising to fill all your needs!
+                    </div>
+                    <div class="info-text">
+                        this is Photoshop version of Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum.
+                    </div>
+                    <div class="buttons">
+                        <button class="btn1">
+                            <a href="#">LEARN MORE</a>
+                        </button>
+                        <button class="btn2">
+                            <a href="#">LEARN MORE</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
+        <script src="./JS/fading1.js"></script>
+        </div>
+        <br>
+        
+        <div style="text-align:center;text-align: center;
+        position: absolute;
+        top: 41vw;
+        left: 3vw;">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
     
 
 
@@ -250,10 +351,10 @@
         <div class="vedios">
             <div class="v1">
                 <div class="symbo">
-                    <div class="absolute" onclick="playpause()">
+                    <div class="absolute">
                         <img src="./Images/play.png"alt="play">
                     </div>
-                    <video id="video1" width="420">
+                    <video id="video1" width="420" onclick="playpause()" >
                         <source src="./Images/ved1.mp4" type="video/mp4">
                     </video>
                 </div>
@@ -309,7 +410,5 @@
 
         </div>
     </div>
-    <script src="./JS/script.js"></script>
-
 </body>
 </html>
