@@ -727,6 +727,7 @@ img {vertical-align: middle;}
     padding: 25.5px 0px;
     background-color: rgba(54, 18, 214, 0.856);
     margin-right: 15px;
+    transition: .5s ease;
 
 }
 #nex:hover
@@ -735,6 +736,7 @@ img {vertical-align: middle;}
     padding: 25.5px 0px;
     background-color: rgba(54, 18, 214, 0.856);
     margin-left: 15px;
+    transition: .5s ease;
  
 }
 /* NEWS LETTER SIGNUP  */
@@ -749,6 +751,7 @@ img {vertical-align: middle;}
     /* background-color: yellowgreen; */
     background-image: url("/Images/newsletter\ background.jpg");
 }
+
 .news_letter_heading
 {
     font-size: 62px;
@@ -783,4 +786,70 @@ img {vertical-align: middle;}
     opacity: 0.8;
     background-color: #f0c349ea;
     color: rgb(0, 0, 0);
+    transition: .5s ease;
+}
+
+/* BLOG */
+.blogheading
+{
+    font-size: 62px;
+    margin-top: 87px;
+    /* padding-bottom: 3vw; */
+}
+.blog
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+.blogs
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;  
+    padding-left: 155px;
+    padding-right: 155px;
+    padding-top: 40px;
+
+
+}
+.blog1 , .blog2, .blog3
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    padding:10px;
+}
+.blog-info
+{
+    text-align: center;
+    padding-bottom: 20px;
+    width: 21vw;
+}
+
+.blog img
+{
+    width:370px;
+}
+.blog-topic
+{
+    padding-top: 20px;
+    width: 11vw;
+    /* align-items: center; */
+    text-align: center;
+}
+.blog-date
+{
+    padding: 20px;
+    opacity: 0.5;
+}
+.readmore
+{
+    width: 145px;
+    height: 35px;
+    background-color: #d1cbcbbf;
+    cursor:pointer;
 }
