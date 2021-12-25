@@ -657,3 +657,71 @@ img {vertical-align: middle;}
     opacity:1;
     transition: .5s ease;
 }
+
+
+/* LIFE IN ZIPPY */
+.life_in_zippy_heading
+{
+    font-size: 37px;
+    padding-bottom: 25px;
+    /* width: 36vw; */
+    margin-top: 60px;
+    /* border: 2px solid red;*/
+}
+.lifeinzippy
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.show
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.slideshow
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.slideshow img
+{
+    width:162px;
+}
+.show_big
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.show_big img
+{
+    width:55vw;
+}
+#pre 
+{
+    width:45px;
+}
+#nex
+{
+    width:45px;
+}
+
+/* NEWS LETTER SIGNUP  */
+.newsletter
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.news_letter_heading
+{
+    font-size: 62px;
+    margin-top: 87px;
+}
