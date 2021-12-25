@@ -9,7 +9,7 @@
 {
     padding-left:163px;
     /* background-color: blanchedalmond; */
-    background-image: url("/Images/First_background.jpg");
+    /* background-image: url("/Images/First_background.jpg"); */
     background-size: cover;
     height: 43vw;
 }
@@ -18,7 +18,7 @@
 {
     padding-left:163px;
     /* background-color: blanchedalmond; */
-    background-image: url("/Images/bg2.jpg");
+    /* background-image: url("/Images/bg2.jpg"); */
     background-size: cover;
     height: 43vw;
 }
@@ -26,7 +26,7 @@
 {
     padding-left:163px;
     /* background-color: blanchedalmond; */
-    background-image: url("/Images/bg3.jpg");
+    /* background-image: url("/Images/bg3.jpg"); */
     background-size: cover;
     height: 43vw;
 }
@@ -749,7 +749,7 @@ img {vertical-align: middle;}
     padding: 5vw 0vw;
     margin-top: 73px;
     /* background-color: yellowgreen; */
-    background-image: url("/Images/newsletter\ background.jpg");
+    /* background-image: url("/Images/background.jpg"); */
 }
 
 .news_letter_heading
