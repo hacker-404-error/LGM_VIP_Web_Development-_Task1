@@ -663,9 +663,9 @@ img {vertical-align: middle;}
 .life_in_zippy_heading
 {
     font-size: 37px;
-    padding-bottom: 25px;
+    padding-bottom: 13px;
     /* width: 36vw; */
-    margin-top: 60px;
+    margin-top: 25px;
     /* border: 2px solid red;*/
 }
 .lifeinzippy
@@ -690,7 +690,7 @@ img {vertical-align: middle;}
 }
 .slideshow img
 {
-    width:162px;
+    width:138px;
 }
 .show_big
 {
@@ -698,6 +698,7 @@ img {vertical-align: middle;}
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 20px;
 }
 .show_big img
 {
@@ -705,23 +706,69 @@ img {vertical-align: middle;}
 }
 #pre 
 {
-    width:45px;
+    width: 45px;
+    padding: 25.5px 0px;
+    background-color: black;
+    margin-right: 15px;
+
 }
 #nex
 {
-    width:45px;
+    width: 45px;
+    padding: 25.5px 0px;
+    background-color: black;   
+    margin-left: 15px;
+ 
 }
 
+#pre:hover
+{
+    width: 45px;
+    padding: 25.5px 0px;
+    background-color: rgba(54, 18, 214, 0.856);
+    margin-right: 15px;
+
+}
+#nex:hover
+{
+    width: 45px;
+    padding: 25.5px 0px;
+    background-color: rgba(54, 18, 214, 0.856);
+    margin-left: 15px;
+ 
+}
 /* NEWS LETTER SIGNUP  */
 .newsletter
 {
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 5vw 0vw;
+    margin-top: 73px;
+    /* background-color: yellowgreen; */
+    background-image: url("/Images/newsletter\ background.jpg");
 }
 .news_letter_heading
 {
     font-size: 62px;
-    margin-top: 87px;
+    /* margin-top: 87px; */
+    padding-bottom: 3vw;
+}
+.form
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#signup
+{
+    font-size: 18pt;
+    height: 56px;
+    width: 47vw;
+}
+.btn
+{
+    height: 56px;
+    width: 7vw;
 }
