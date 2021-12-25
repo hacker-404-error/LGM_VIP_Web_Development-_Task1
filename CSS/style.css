@@ -766,9 +766,21 @@ img {vertical-align: middle;}
     font-size: 18pt;
     height: 56px;
     width: 47vw;
+    opacity: 0.8;
 }
 .btn
 {
     height: 56px;
     width: 7vw;
+    opacity: 0.8;
+    background-color: #5822aff7;
+    color: white;
+}
+.btn:hover
+{
+    height: 56px;
+    width: 7vw;
+    opacity: 0.8;
+    background-color: #f0c349ea;
+    color: rgb(0, 0, 0);
 }
