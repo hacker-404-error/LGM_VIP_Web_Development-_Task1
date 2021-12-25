@@ -853,3 +853,150 @@ img {vertical-align: middle;}
     background-color: #d1cbcbbf;
     cursor:pointer;
 }
+
+/* CONTACT \ MAP  */
+.contact_heading
+{
+    padding-left: 72px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.contact_map
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 90px;
+    /* background-color: rgba(226, 226, 0, 0.822); */
+}
+iframe
+{
+    width: 52vw;
+    height: 39vw;
+}
+.contact
+{
+    
+    width: 47vw;
+    font-size: 18px;
+    background-color: rgb(223 220 21);
+    /* height: 39.1vw; */
+    padding: 21px 0px;
+}
+.form1 button
+{
+    width: 23vw;
+    border: none;
+    /* background-color: rgb(199, 201, 238); */
+    box-shadow: 1px 1px black;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+.form1
+{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding-left: 76px;
+}
+.form1 input, .form1 textarea
+{
+    border:none;
+    box-shadow: 1px 1px black;
+    border-radius: 5px;
+}
+.form1 label
+{
+    font-size: 15px;
+}
+/* FOOTER */
+
+.footer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8vw;
+}
+.address
+{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 15vw;
+    align-items: center;
+    padding-right: 15px;
+    height: 11vw;
+}
+.followers
+{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin: 0px 17vw;
+}
+.f1, .f2
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactus
+{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 14vw;
+    text-align: center;
+    height: 11vw;
+}
+.location
+{
+    text-align: center;
+    padding-top: 10px;
+    line-height: 30px;
+}
+.contacts
+{
+    text-align: center;
+    padding-top: 10px;    
+    line-height: 30px;
+}
+.followers img
+{
+    width: 66px;
+    padding: 14px;
+}
+.address-heading, .followers-heading, .contact-heading
+{
+    font-size: large;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
