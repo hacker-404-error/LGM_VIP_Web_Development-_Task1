@@ -3,6 +3,10 @@
     margin: 0;
     padding: 0;
 }
+html
+{
+    scroll-behavior: smooth;
+}
 
 /* INtroduction */
 .introduction
@@ -53,7 +57,7 @@
     flex-direction: row;
     height: 140px;
     padding-top: 36px;
-    margin-left:143px;
+    margin-left: 240px;
 }
 .nav
 {
@@ -67,7 +71,8 @@
     position: relative;
     bottom: 13px;
     right: 236px;
-    font-size: 36px;
+    font-size: 50px;
+    font-family: 'Concert One', cursive;
 }
 
 .nav-items
@@ -76,10 +81,29 @@
     list-style: none;
     list-style: none;
     padding: 16px;
+    
 }
 a
 {
     text-decoration: none;
+}
+.nav-items a
+{
+    padding: 6px;
+    font-family: 'Concert One', cursive;
+    font-size: 18px;
+
+}
+.nav-items a:hover
+{
+    background-color: #0000005c;
+    /* width: 331px; */
+    padding: 6px;
+    border-radius: 13px;
+    font-size: 18px;
+    /* width: 16px; */
+    color: white;
+    font-family: 'Concert One', cursive;
 }
 
 
@@ -100,9 +124,10 @@ a
 .heading
 {
     /* border:2px solid red; */
-    font-size: 37px;
+    font-size: 40px;
     padding-bottom: 15px;
     /* width: 36vw; */
+    font-family: 'Concert One', cursive;
 }
 .info-text
 {
@@ -110,6 +135,7 @@ a
     font-size: 19px;
     padding-bottom: 15px;
     /* width: 36vw; */
+    font-family: 'Concert One', cursive;
 }
 .buttons
 {
@@ -120,10 +146,15 @@ a
 
 .btn1
 {
-    background-color:rgb(219, 199, 13) ;
-    color:black;
+    background-color:rgb(47, 34, 109) ;
+    color:white;
     padding:10px;
     border:none;
+    border-radius: 5%;
+    cursor: pointer;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 14px;
+
 }
 .btn2
 {
@@ -131,6 +162,37 @@ a
     color:white;
     padding:10px;
     border:none;    
+    border-radius: 5%;
+    cursor: pointer;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 14px;
+
+}
+.btn1:hover
+{
+    background-color: rgb(219, 199, 13);
+    color: black;
+    padding: 10px;
+    border: none;
+    transition: .5s ease;
+    border-radius: 5%;
+    cursor: pointer;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 14px;
+
+}
+
+.btn2:hover
+{
+    background-color: rgb(219, 199, 13);
+    color: black;
+    padding: 10px;
+    border: none;
+    transition: .5s ease;
+    border-radius: 5%;
+    cursor: pointer;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 14px;
 }
 
 
