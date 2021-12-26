@@ -11,17 +11,19 @@ html
 /* INtroduction */
 .introduction
 {
-    padding-left:163px;
+    padding-left: 10.9vw;
     /* background-color: blanchedalmond; */
-    /* background-image: url("/Images/First_background.jpg"); */
+    /* background-image: url(/Images/First_background.jpg); */
     background-size: cover;
     height: 43vw;
+    width: 100vw;
     animation-name: back;
     animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-timing-function: ease;
-    
+    overflow: hidden;
 }
+
 @keyframes back 
 {
     0%,100%  {background-image: url("https://cdn.pixabay.com/photo/2014/03/26/17/50/sunset-298850_1280.jpg"); transition:5sec;}
@@ -55,9 +57,10 @@ html
     display: flex;
     justify-content: center;
     flex-direction: row;
-    height: 140px;
-    padding-top: 36px;
-    margin-left: 240px;
+    height: 9.7vw;
+    padding-top: 2.4vw;
+    margin-left: 16.5vw;
+    
 }
 .nav
 {
@@ -69,9 +72,9 @@ html
 .company-name
 {
     position: relative;
-    bottom: 13px;
-    right: 236px;
-    font-size: 50px;
+    bottom: 1vw;
+    right: 15.6vw;
+    font-size: 3.5vw;
     font-family: 'Concert One', cursive;
 }
 
@@ -79,29 +82,24 @@ html
 {
     /* border:2px solid red; */
     list-style: none;
-    list-style: none;
-    padding: 16px;
-    
+    padding: 1.1vw;
 }
+
 a
 {
     text-decoration: none;
 }
 .nav-items a
 {
-    padding: 6px;
+    padding: 0.3vw;
     font-family: 'Concert One', cursive;
-    font-size: 18px;
+    font-size: 1.3vw;
 
 }
 .nav-items a:hover
 {
     background-color: #0000005c;
-    /* width: 331px; */
-    padding: 6px;
     border-radius: 13px;
-    font-size: 18px;
-    /* width: 16px; */
     color: white;
     font-family: 'Concert One', cursive;
 }
@@ -112,31 +110,33 @@ a
 /* TEXT AREA */
 .textarea
 {
-     display: flex;
+    display: flex;
     flex-direction: column;
-    margin-left: 206px;
-    width: 481px;
-    height: 338px;
+    margin-left: 14vw;
+    width: 32vw;
+    height: 4vw;
     /* border: 2px solid black; */
-    margin-top: 31px;
+    margin-top: 2.1vw;
+    display: flex;
 }
 
 .heading
 {
-    /* border:2px solid red; */
-    font-size: 40px;
-    padding-bottom: 15px;
+    /* border: 2px solid red; */
+    font-size: 3vw;
+    padding-bottom: 1vw;
     /* width: 36vw; */
     font-family: 'Concert One', cursive;
 }
 .info-text
 {
-    /* border:2px solid red; */
-    font-size: 19px;
-    padding-bottom: 15px;
+    /* border: 2px solid red; */
+    font-size: 1.4vw;
+    padding-bottom: 1vw;
     /* width: 36vw; */
     font-family: 'Concert One', cursive;
-}
+};
+
 .buttons
 {
     /* border:2px solid red; */
@@ -146,39 +146,39 @@ a
 
 .btn1
 {
-    background-color:rgb(47, 34, 109) ;
-    color:white;
-    padding:10px;
-    border:none;
-    border-radius: 5%;
+    background-color: rgb(47, 34, 109);
+    color: white;
+    padding: 0.7vw;
+    border: none;
+    border-radius: 0.5vw;
     cursor: pointer;
     font-family: 'Oxygen', sans-serif;
-    font-size: 14px;
+    font-size: 1vw;
 
 }
 .btn2
 {
-    background-color:rgb(47, 34, 109) ;
-    color:white;
-    padding:10px;
-    border:none;    
-    border-radius: 5%;
+    background-color: rgb(47, 34, 109);
+    color: white;
+    padding: 0.7vw;
+    border: none;
+    border-radius: 0.5vw;
     cursor: pointer;
     font-family: 'Oxygen', sans-serif;
-    font-size: 14px;
+    font-size: 1vw;
 
 }
 .btn1:hover
 {
     background-color: rgb(219, 199, 13);
     color: black;
-    padding: 10px;
+    padding: 0.7vw;
     border: none;
     transition: .5s ease;
-    border-radius: 5%;
+    border-radius: 0.5vw;
     cursor: pointer;
     font-family: 'Oxygen', sans-serif;
-    font-size: 14px;
+    font-size: 1vw;
 
 }
 
@@ -186,13 +186,13 @@ a
 {
     background-color: rgb(219, 199, 13);
     color: black;
-    padding: 10px;
+    padding: 0.7vw;
     border: none;
     transition: .5s ease;
-    border-radius: 5%;
+    border-radius: 0.5vw;
     cursor: pointer;
     font-family: 'Oxygen', sans-serif;
-    font-size: 14px;
+    font-size: 1vw;
 }
 
 
@@ -215,12 +215,12 @@ a
 
 .heading2
 {
-    font-size: 42px;
+    font-size: 2.9vw;
 }
 
 .second-section2
 {
-    padding-top: 26px;
+    padding-top: 2vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -229,11 +229,11 @@ a
 
 .contact_info
 {
-    display:flex;
-    justify-content:center ;
-    align-items:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     /* flex-direction: column; */
-    margin:27px;
+    margin: 2vw;
 }
 
 .contactinfo1
@@ -246,13 +246,14 @@ a
 }
 .info
 {
-    width:13vw;
-    margin-top:36px;
-    margin-left:36px;
-    margin-right:36px;
-    margin-bottom: 10px;
+    width: 13vw;
+    margin-top: 2.6vw;
+    margin-left: 2.6vw;
+    margin-right: 2.6vw;
+    margin-bottom: 0.8vw;
     text-align: center;
 }
+
 .contact-info-info
 {
     margin-top:20px;
