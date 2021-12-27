@@ -2,10 +2,12 @@
 {
     margin: 0;
     padding: 0;
+    /* font-family: 'Baloo Bhaijaan 2', cursive; */
 }
 html
 {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 /* INtroduction */
@@ -256,14 +258,14 @@ a
 
 .contact-info-info
 {
-    margin-top:20px;
+    margin-top: 1vw;
 }
 
 .contact_info button
 {
     background-color:rgb(219, 199, 13) ;
     color:black;
-    padding:10px;
+    padding: 0.7vw;
     border:none;
 }
 
@@ -290,20 +292,20 @@ a
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-bottom: 30px;
+    padding-bottom: 2.5vw;
     
 }
 
 .card-info-info
 {
     /* text-align:center; */
-    padding:20px;
+    padding: 1.5vw;
 }
 
 .card-info-heading
 {
     padding:1vw;
-    font-size: 24px;
+    font-size: 1.6vw;
 }
 
 .third-section img
@@ -313,7 +315,7 @@ a
 }
 .third-section button
 {
-    padding:5px;
+    padding: 0.5vw;
 }
 
 /* THIRD SECTION */
@@ -329,17 +331,17 @@ a
     display:flex;
     justify-content: center;
     align-items: center;
-    margin-left:200px;
-    margin-right: 200px;
+    margin-left: 13.5vw;
+    margin-right: 13.5vw;
     text-align: center;
 }
 
 .content1, .content2, .content3
 {
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 6vw;
+    padding-right: 6vw;
     /* padding-bottom: 100px; */
-    margin-bottom: 98px;
+    margin-bottom: 7vw;
 }
 .content1
 {
@@ -353,26 +355,27 @@ a
 
 .head
 {
-    padding-bottom:10px;
+    padding-bottom: 0.9vw;
 }
 .sub-head
 {
-    padding-bottom:10px;
-    font-size: 10px;
+    padding-bottom: 1vw;
+    font-size: 0.8vw;
 }
 .pricing button
 {
     background-color: rgb(47, 34, 109);
     color: white;
-    padding: 3px;
-    padding-left: 29px;
-    padding-right: 29px;
-    border: none;
+    padding: 0.2vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    border:none;
 }
+
 .content-content
 {
-    margin-bottom: 26px;
-    line-height: 31px;
+    margin-bottom: 2vw;
+    line-height: 2.2vw;
 }
 
 /* VEDIO PROJECTS */
@@ -389,15 +392,15 @@ a
 }
 .vedios
 {
-    display:flex;
-    margin: 10px;
+    display: flex;
+    margin: 1vw;
 }
 .v1, .v2, .v3
 {
     display: flex;
     flex-direction: column;
-    padding: 22px;
-    position:relative;
+    padding: 1.5vw;
+    position: relative;
 }
 .controls
 {
@@ -413,8 +416,8 @@ a
 {
     cursor: pointer;
     position: absolute;
-    top: 115px;
-    left: 201px;
+    top: 8vw;
+    left: 14vw;
 }
 .absolute img
 {
@@ -426,9 +429,9 @@ a
 }
 .vedio .head
 {
-    margin-top:64px;
-    font-size: 37px;
-    padding-bottom: 15px;
+    margin-top: 3vw;
+    font-size: 2.5vw;
+    padding-bottom: 1vw;
 }
 
 
@@ -436,11 +439,10 @@ a
 /* ZIPPY TEAM */
 .zippyteamheading
 {
-    font-size: 37px;
-    padding-bottom: 35px;
+    font-size: 3vw;
+    padding-bottom: 3vw;
     /* width: 36vw; */
-    margin-top: 60px;
-    /* border: 2px solid red; */
+    margin-top: 4vw;
 }
 .zippyteam
 {
@@ -462,7 +464,7 @@ a
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 40px;
+    padding-bottom: 1.5vw;
 }
 .card1, .card2, .card3
 {
@@ -474,7 +476,7 @@ a
 .name, .information
 {
     text-align: center;
-    padding-top: 15px;
+    padding-top: 0.7vw;
 }
 .section img
 {
@@ -484,46 +486,47 @@ a
 }
 .section1-card1, .section1-card2, .section1-card3
 {
-    padding-right:70px;
+    padding-right: 6vw;
 }
 .section2-card1, .section2-card2, .section2-card3
 {
-    padding-right:70px;
+    padding-right: 6vw;
 }
+
 .accounthover1
 {
     position: absolute;
-    top: 14vw;
-    right: 67vw;
-    opacity:0;
+    top: 14.9vw;
+    right: 69.5vw;
+    opacity: 0;
 }
 .accounthover2
 {
     position: absolute;
-    top: 14vw;
-    right: 46vw;
-    opacity:0;
+    top: 14.4vw;
+    right: 47.2vw;
+    opacity: 0;
 }
 .accounthover3
 {
     position: absolute;
-    top: 14vw;
+    top: 15vw;
     right: 25vw;
-    opacity:0;
+    opacity: 0;
 }
 .accounthover4
 {
     position: absolute;
-    top: 38vw;
-    right: 67vw;
-    opacity:0;
+    top: 38.1vw;
+    right: 69.6vw;
+    opacity: 0;
 }
 .accounthover5
 {
     position: absolute;
-    top: 38vw;
-    right: 46vw;
-    opacity:0;
+    top: 37.8vw;
+    right: 47.1vw;
+    opacity: 0;
 }
 .accounthover6
 {
@@ -535,8 +538,8 @@ a
 
 .account img, .account2 img
 {
-    width: 80px;
-    height: 80px;
+    width: 5vw;
+    height: 5vw;
 }
 .account2
 {
@@ -560,16 +563,16 @@ a
 .accounthover1:hover
 {
     position: absolute;
-    top: 14vw;
-    right: 67vw;
+    top: 14.9vw;
+    right: 69.5vw;
     opacity:1;
     transition: .5s ease;
 }
 .accounthover4:hover
 {
     position: absolute;
-    top: 38vw;
-    right: 67vw;
+    top: 38.1vw;
+    right: 69.6vw;
     opacity:1;
     transition: .5s ease;
 }
@@ -592,16 +595,17 @@ a
 .accounthover2:hover
 {
     position: absolute;
-    top: 14vw;
-    right: 46vw;
+    top: 14.4vw;
+    right: 47.2vw;
+    opacity: 0;
     opacity:1;
     transition: .5s ease;
 }
 .accounthover5:hover
 {
     position: absolute;
-    top: 38vw;
-    right: 46vw;
+    top: 37.8vw;
+    right: 47.1vw;
     opacity:1;
     transition: .5s ease;
 }
@@ -626,7 +630,7 @@ a
 .accounthover3:hover
 {
     position: absolute;
-    top: 14vw;
+    top: 15vw;
     right: 25vw;
     opacity:1;
     transition: .5s ease;
@@ -644,10 +648,10 @@ a
 /* LIFE IN ZIPPY */
 .life_in_zippy_heading
 {
-    font-size: 37px;
-    padding-bottom: 13px;
+    font-size: 3vw;
+    padding-bottom: 1vw;
     /* width: 36vw; */
-    margin-top: 25px;
+    margin-top: 2vw;
     /* border: 2px solid red;*/
 }
 .lifeinzippy
@@ -672,7 +676,7 @@ a
 }
 .slideshow img
 {
-    width:138px;
+    width: 9.4vw;
 }
 .show_big
 {
@@ -688,18 +692,18 @@ a
 }
 #pre 
 {
-    width: 45px;
-    padding: 25.5px 0px;
+    width: 3.2vw;
+    padding: 1.6vw 0px;
     background-color: black;
-    margin-right: 15px;
+    margin-right: 1vw;
 
 }
 #nex
 {
-    width: 45px;
-    padding: 25.5px 0px;
-    background-color: black;   
-    margin-left: 15px;
+    width: 3.2vw;
+    padding: 1.6vw 0px;
+    background-color: black;
+    margin-left: 1vw;
  
 }
 
