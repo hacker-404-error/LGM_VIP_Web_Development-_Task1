@@ -1,9 +1,10 @@
-.introduction {
+.introduction
+ {
     padding-left: 10.9vw;
     background-color: blanchedalmond;
     background-image: url(/Images/First_background.jpg);
     background-size: cover;
-    height: 70vw;
+    height: 80vw;
     width: 100vw;
     animation-name: back;
     animation-duration: 10s;
@@ -11,18 +12,28 @@
     animation-timing-function: ease;
     overflow: hidden;
 }
+@keyframes back 
+{
+    0%,100%  {background-image: url("https://images.unsplash.com/photo-1514519334989-3d5c8b1a9f91?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"); transition:5sec;}
+    25% {background-image: url("https://images.unsplash.com/photo-1481007553706-bde1ba8e91fd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"); transition:5sec;}
+    50% {background-image: url("https://images.unsplash.com/photo-1541119638723-c51cbe2262aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80"); transition:5sec;}
+    75% {background-image: url("https://images.unsplash.com/photo-1446435210126-bfa18ee3b7a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1346&q=80"); transition:5sec;}
+}
 
-.textarea {
+.textarea 
+{
     display: flex;
     flex-direction: column;
     margin-left: 21vw;
-    width: 36vw;
+    width: 37vw;
     height: 3vw;
     /* border: 2px solid black; */
     margin-top: 20.1vw;
     display: flex;
 }
-.nav {
+
+.nav 
+{
     /* border: 2px solid black; */
     display: flex;
     justify-content: center;
@@ -30,10 +41,81 @@
     margin-top: 15vw;
     padding-right: 52vw;
 }
-.company-name {
-    position: relative;
-    bottom: -3vw;
-    right: -28.4vw;
-    font-size: 9.5vw;
+.nav-items a 
+{
+    padding: 2.3vw;
     font-family: 'Concert One', cursive;
+    font-size: 3vw;
+}
+
+.company-name 
+{
+    position: relative;
+    bottom: -1vw;
+    right: -57.4vw;
+    font-size: 10.5vw;
+    font-family: 'Concert One', cursive;
+}
+.heading {
+    /* border: 2px solid red; */
+    font-size: 4vw;
+    padding-bottom: 2vw;
+    width: 36vw;
+    font-family: 'Concert One', cursive;
+    text-align: center;
+}
+.info-text {
+    /* border: 2px solid red; */
+    font-size: 2.6vw;
+    padding-bottom: 1vw;
+    width: 36vw;
+    font-family: 'Concert One', cursive;
+    text-align: center;
+}
+
+.buttons {
+
+    width: 38vw;
+    padding-left: 5vw;
+
+}
+.btn1 {
+    background-color: rgb(47, 34, 109);
+    color: white;
+    padding: 1.2vw;
+    border: none;
+    border-radius: 0.5vw;
+    cursor: pointer;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 1.7vw;
+}
+.btn2 {
+    background-color: rgb(47, 34, 109);
+    color: white;
+    padding: 1.2vw;
+    border: none;
+    border-radius: 0.5vw;
+    cursor: pointer;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 1.7vw;
+}
+.btn1:hover {
+    background-color: rgb(219, 199, 13);
+    color: rgb(0, 0, 0);
+    padding: 1.2vw;
+    border: none;
+    border-radius: 0.5vw;
+    cursor: pointer;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 1.7vw;
+}
+.btn2:hover {
+    background-color: rgb(219, 199, 13);
+    color: rgb(0, 0, 0);
+    padding: 1.2vw;
+    border: none;
+    border-radius: 0.5vw;
+    cursor: pointer;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 1.7vw;
 }

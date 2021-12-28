@@ -36,24 +36,6 @@ body
     50% {background-image: url("https://cdn.pixabay.com/photo/2016/05/24/16/48/mountains-1412683_1280.png"); transition:5sec;}
     75% {background-image: url("https://cdn.pixabay.com/photo/2016/11/29/04/19/ocean-1867285_1280.jpg"); transition:5sec;}
 }
-.introduction2
-{
-    padding-left:163px;
-    /* background-color: blanchedalmond; */
-    /* background-image: url("/Images/bg2.jpg"); */
-    background-size: cover;
-    height: 43vw;
-}
-.introduction3
-{
-    padding-left:163px;
-    /* background-color: blanchedalmond; */
-    /* background-image: url("/Images/bg3.jpg"); */
-    background-size: cover;
-    height: 43vw;
-} 
-
-
 
 /* header */
 .header
