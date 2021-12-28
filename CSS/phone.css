@@ -127,3 +127,41 @@
     font-size: 5.5vw;
     font-family: 'Concert One', cursive;
 }
+.info {
+    width: 26vw;
+    margin-top: 2.6vw;
+    margin-left: 2.6vw;
+    margin-right: 2.6vw;
+    margin-bottom: 0.8vw;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 2.2vw;
+}
+.pic{
+    width: 35vw;
+}
+.pic img
+{
+    width:30vw;
+}
+.contactinfo1 img
+{
+    width: 7vw;
+}
+.contact-info-info {
+    margin-top: 1vw;
+    color: purple;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 2.6vw;
+}
+.contact_info button {
+    background-color: rgb(47, 34, 109);
+    color: rgb(240, 240, 240);
+    padding: 0.7vw;
+    border: none;
+    border-radius: 0.5vw;
+    cursor: pointer;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 3vw;
+}

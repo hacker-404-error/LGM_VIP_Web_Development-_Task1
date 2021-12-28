@@ -215,14 +215,20 @@ a
     /* flex-direction: column;*/
 }
 
+
 .contact_info
 {
     display: flex;
     justify-content: center;
     align-items: center;
     /* flex-direction: column; */
-    margin: 2vw;
+    padding: 2vw;
+    padding-bottom: 3vw;
+    border-bottom: 2px solid black;
+    margin-bottom: 5vw;
 }
+
+
 
 .contactinfo1
 {
@@ -274,6 +280,18 @@ a
 }
 
 /* THIRD SECTION */
+.projects-heading
+{
+    
+    /* border: 2px solid red; */
+    font-size: 3vw;
+    padding-bottom: 1vw;
+    width: 36vw;
+    font-family: 'Concert One', cursive;
+    text-align: center;
+    /* margin-top: 4vw; */
+    
+}
 .third-section
 {
     display:flex;
@@ -283,11 +301,11 @@ a
 }
 .cards
 {
-    /* border:2px solid red; */
-    display:flex;
-    margin: 103px;
-    margin-top: 10px;
-
+    /* border: 2px solid red; */
+    display: flex;
+    margin: 7vw;
+    margin-top: 1vw;
+    width: 85.1vw;
 }
 .cards1, .cards2 , .cards3, .cards4
 {
@@ -299,30 +317,98 @@ a
     padding-bottom: 2.5vw;
     
 }
-
-.card-info-info
+.cards1
 {
-    /* text-align:center; */
+
+    background-color:rgb(164, 160, 167);
+    
+}
+.cards2
+{
+
+    background-color:rgb(173, 173, 173);
+    
+}
+.cards3
+{
+
+    background-color:rgb(164, 160, 167);
+    
+}
+.cards4
+{
+
+    background-color:rgb(173, 173, 173);
+    
+}
+
+.cards1:hover
+{
+
+    background-color:rgb(221, 182, 9);
+    transition: 0.2s  ease-in-out;
+    
+}
+.cards2:hover
+{
+
+    background-color:rgb(221, 182, 9);
+    transition: 0.2s  ease-in-out;
+    
+}
+.cards3:hover
+{
+
+    background-color:rgb(221, 182, 9);
+    transition: 0.2s  ease-in-out;
+    
+}
+.cards4:hover
+{
+
+    background-color:rgb(221, 182, 9);
+    transition: 0.2s  ease-in-out;
+    
+}
+
+.card-info-info 
+{
+    text-align: center;
     padding: 1.5vw;
+    font-size: 1.2vw;
+    font-family: 'PT Sans', sans-serif;
 }
 
 .card-info-heading
 {
     padding:1vw;
-    font-size: 1.6vw;
+    font-size: 1.9vw;
+    font-family: 'Concert One', cursive;
 }
 
 .third-section img
 {
-    width: 313px;
-    height: 400px;
+    width: 21.3vw;
+    height: 29.5vw;
 }
 .third-section button
 {
     padding: 0.5vw;
+    font-size: 1vw;
+    font-family: 'Oxygen', sans-serif;
+    border: none;
 }
-
-/* THIRD SECTION */
+.third-section button:hover
+{
+    padding: 0.5vw;
+    font-size: 1vw;
+    font-family: 'Oxygen', sans-serif;
+    background-color: rgb(78, 17, 102);
+    color: rgb(255, 247, 247);
+    border: none;
+    cursor: pointer;
+}
+/* Fourth SECTION */
 .pricing
 {
     display:flex;
