@@ -202,12 +202,13 @@ a
 
 .heading2
 {
-    font-size: 2.9vw;
+    font-size: 3.5vw;
+    font-family: 'Concert One', cursive;
 }
 
 .second-section2
 {
-    padding-top: 2vw;
+    padding-top: 1vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -239,19 +240,37 @@ a
     margin-right: 2.6vw;
     margin-bottom: 0.8vw;
     text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.1vw;
 }
 
 .contact-info-info
 {
     margin-top: 1vw;
+    color: purple;
+    text-transform: capitalize;
+    font-weight: bold;
 }
 
 .contact_info button
+{
+    background-color: rgb(47, 34, 109);
+    color:rgb(240, 240, 240);
+    padding: 0.7vw;
+    border:none;
+    border-radius: 0.5vw;
+    cursor: pointer;
+    font-family: 'Oxygen', sans-serif;
+}
+.contact_info button:hover
 {
     background-color:rgb(219, 199, 13) ;
     color:black;
     padding: 0.7vw;
     border:none;
+    cursor: pointer;
+    border-radius: 0.5vw;
+    font-family: 'Oxygen', sans-serif;
 }
 
 /* THIRD SECTION */
