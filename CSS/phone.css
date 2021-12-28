@@ -1,0 +1,39 @@
+.introduction {
+    padding-left: 10.9vw;
+    background-color: blanchedalmond;
+    background-image: url(/Images/First_background.jpg);
+    background-size: cover;
+    height: 70vw;
+    width: 100vw;
+    animation-name: back;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    overflow: hidden;
+}
+
+.textarea {
+    display: flex;
+    flex-direction: column;
+    margin-left: 21vw;
+    width: 36vw;
+    height: 3vw;
+    /* border: 2px solid black; */
+    margin-top: 20.1vw;
+    display: flex;
+}
+.nav {
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 15vw;
+    padding-right: 52vw;
+}
+.company-name {
+    position: relative;
+    bottom: -3vw;
+    right: -28.4vw;
+    font-size: 9.5vw;
+    font-family: 'Concert One', cursive;
+}
