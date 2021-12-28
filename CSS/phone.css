@@ -165,3 +165,87 @@
     font-family: 'Oxygen', sans-serif;
     font-size: 3vw;
 }
+
+/* THIRD SECTION */
+.cards
+{
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-gap:1vw;
+}
+.third-section img {
+    width: 42.3vw;
+    height: 49.5vw;
+}
+.card-info-heading {
+    padding-top: 1vw;
+    font-size: 2.4vw;
+    font-family: 'Concert One', cursive;
+}
+.card-info-info {
+    text-align: center;
+    padding: 1.5vw;
+    font-size: 1.9vw;
+    font-family: 'PT Sans', sans-serif;
+}
+.third-section button {
+    padding: 0.7vw;
+    font-size: 1.7vw;
+    font-family: 'Oxygen', sans-serif;
+    border: none;
+    border-radius: 0.7vw;
+}
+.third-section button:hover {
+    padding: 0.7vw;
+    font-size: 1.7vw;
+    font-family: 'Oxygen', sans-serif;
+    border: none;
+    border-radius: 0.7vw;
+}
+.projects-heading {
+    /* border: 2px solid red; */
+    font-size: 4.8vw;
+    padding-bottom: 1vw;
+    width: 36vw;
+    font-family: 'Concert One', cursive;
+    text-align: center;
+    /* margin-top: 4vw; */
+}
+
+/* Fourth section */
+.pricing-head {
+    margin-top: 1vw;
+    color: purple;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 1.7vw;
+    width: 18vw;
+    text-align: center;
+}
+.content1, .content2, .content3 {
+    padding-left: 7vw;
+    padding-right: 5vw;
+    padding-bottom: 0px;
+    margin-bottom: 8vw;
+    width: 30vw;
+}
+.sub-head {
+    padding-bottom: 1vw;
+    font-size: 1.4vw;
+    padding-top: 1vw;
+}
+.content-content {
+    margin-bottom: 2vw;
+    line-height: 4.4vw;
+    font-size: 2.5vw;
+}
+.pricing button:hover {
+    background-color: rgb(206, 196, 63);
+    color: rgb(0, 0, 0);
+    padding: 0.2vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    border: none;
+    border-radius: 1vw;
+    cursor: pointer;
+}

@@ -409,6 +409,14 @@ a
     cursor: pointer;
 }
 /* Fourth SECTION */
+.pricing-head
+{
+    margin-top: 1vw;
+    /* color: purple; */
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 1.2vw;
+}
 .pricing
 {
     display:flex;
@@ -460,6 +468,19 @@ a
     padding-left: 2vw;
     padding-right: 2vw;
     border:none;
+    border-radius: 1vw;
+    cursor: pointer;
+
+}
+.pricing button:hover {
+    background-color: rgb(214, 204, 64);
+    color: rgb(0, 0, 0);
+    padding: 0.2vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    border: none;
+    border-radius: 1vw;
+    cursor: pointer;
 }
 
 .content-content
