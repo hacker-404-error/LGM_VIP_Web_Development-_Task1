@@ -249,3 +249,52 @@
     border-radius: 1vw;
     cursor: pointer;
 }
+.pricing button a
+{
+    font-size: 3vw;
+}
+/* VEDIO PROJECTS */
+.vedio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #5b036f;
+    color: white;
+    height: 47vw;
+}
+.vedio .head {
+    margin-top: 3vw;
+    font-size: 3.5vw;
+    padding-bottom: 1vw;
+}
+.vedios
+{
+    display:grid;
+}
+.vedio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #5b036f;
+    color: white;
+    height: 155vw;
+}
+.absolute {
+    cursor: pointer;
+    position: absolute;
+    top: 14vw;
+    left: 28vw;
+}
+.title {
+    margin-right: 45vw;
+}
+audio, canvas, progress, video {
+    display: inline-block;
+    width: 64vw;
+}
+.title, .time
+{
+    font-size: 2.5vw;
+}
