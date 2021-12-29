@@ -298,3 +298,8 @@ audio, canvas, progress, video {
 {
     font-size: 2.5vw;
 }
+.absolute img
+{
+    filter: invert(50%);
+    width: 8vw;
+}

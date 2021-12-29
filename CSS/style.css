@@ -537,6 +537,7 @@ a
 .absolute img
 {
     filter: invert(50%);
+    width: 3vw;
 }
 .vedios button
 {
