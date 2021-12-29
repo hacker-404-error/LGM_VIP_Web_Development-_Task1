@@ -38,7 +38,7 @@
     display: flex;
     justify-content: center;
     flex-direction: row;
-    margin-top: 15vw;
+    margin-top: 17vw;
     padding-right: 52vw;
 }
 .nav-items a 
@@ -306,8 +306,8 @@ audio, canvas, progress, video {
 
 /* ZIPPY TEAM */
 .section img {
-    width: 22vw;
-    height: 22vw;
+    width: 27vw;
+    height: 27vw;
     border-radius: 13vw;
 }
 .account img {
@@ -324,6 +324,17 @@ audio, canvas, progress, video {
     margin-top: 4vw;
     font-family: 'Concert One', cursive;
 }
+.section1, .section2
+{
+    padding-left: 6vw;
+}
+.name, .information {
+    text-align: center;
+    /* padding-top: 0.7vw; */
+    font-size: 3.5vw;
+    font-family: 'Concert One', cursive;
+}
+
 
 /* LIFE IN ZIPPY */
 .life_in_zippy_heading 
@@ -336,17 +347,17 @@ audio, canvas, progress, video {
     font-family: 'Concert One', cursive;
 }
 .show_big img {
-    width: 81vw;
+    width: 99vw;
 }
 .slideshow img {
-    width: 14vw;
+    width: 17vw;
 }
 .lifeinzippy {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 90vw;
+    height: 115vw;
     background-color: rgba(197, 189, 189, 0.822);
 }
 #pre {
@@ -381,40 +392,46 @@ audio, canvas, progress, video {
 }
 
 /* NEWS LETTER */
+
 .newsletter {
     background-image: url("https://i.ibb.co/RCPjmqh/phone-background.png"); 
     background-size: cover;
-    height: 35vw;
+    height: 57vw;
+    margin-top: 6vw;
 }
 #signup {
-    font-size: 1.8vw;
-    height: 5.8vw;
-    width: 59vw;
+    font-size: 3.4vw;
+    height: 7.8vw;
+    width: 84vw;
     opacity: 0.8;
-    margin-top: 2vw;
+    margin-top: 5vw;
 }
 .btn {
-    height: 5.6vw;
-    width: 12vw;
+    height: 7.6vw;
+    width: 16vw;
     opacity: 0.8;
     background-color: #5822aff7;
     color: white;
-    margin-top: 2vw;
-    font-size: 1.3vw;
+    margin-top: 5vw;
+    font-size: 2.3vw;
     border: none;
     cursor: pointer;
 }
-.btn:hover 
-{
-    height: 5.6vw;
-    width: 12vw;
+.btn:hover{
+    height: 7.6vw;
+    width: 16vw;
     opacity: 0.8;
+    background-color: #afad22f7;
     color: white;
     margin-top: 2vw;
-    font-size: 1.3vw;
+    font-size: 2.3vw;
     border: none;
-    background-color: #f0c349ea;
     cursor: pointer;
+}
+
+.newsletter .form
+{
+    flex-direction: column;
 }
 
 /* BLOG */
@@ -435,6 +452,7 @@ audio, canvas, progress, video {
     width: 68.2vw;
     text-align: center;
     font-size: 6vw;
+    font-family: 'Concert One', cursive;
 }
 .blog-date {
     padding: 1vw;
@@ -443,9 +461,10 @@ audio, canvas, progress, video {
 }
 .blog-info {
     text-align: center;
-    padding-bottom: 1vw;
+    padding-bottom: 3vw;
     width: 76vw;
     font-size: 4.9vw;
+    font-family: 'Baloo Bhaijaan 2', cursive;
 }
 .readmore {
     width: 29vw;
@@ -475,42 +494,54 @@ iframe {
     margin-bottom: 0.3vw;
 }
 .contact {
-    width: 71vw;
-    font-size: 1.1vw;
-    background-color: rgb(223 220 21);
-    /* height: 39.1vw; */
+    width: 93.6vw;
+    font-size: 4.2vw;
+    background-color: rgb(168, 224, 14);
+    height: 39.1vw;
     margin: 21px 0px;
-    height: 94.3vw;
+    height: 113.3vw;
     margin-top: -6.4vw;
 }
 .contact_heading {
-    padding-left: 27vw;
-    font-size: 4vw;
+    padding-left: 34vw;
+    font-size: 7vw;
     font-weight: bold;
     padding-top: 3vw;
+    font-family: 'Concert One', cursive;
 }
 .form1 {
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
-    padding-left: 7.2vw;
+    padding-left: 3.2vw;
 }
 .form1 label {
-    font-size: 3vw;
+    font-size: 3.5vw;
+    font-family: 'Concert One', cursive;
 }
 .form1 input, .form1 textarea {
     border: none;
     box-shadow: 1px 1px black;
     /* border-radius: 0.3vw; */
     width: 58.4vw;
-    height: 4vw;
+    height: 5.4vw;
+    opacity: 70%;
 }
-.form1 textarea {
-    width: 23.5vw;
+.form1 input:hover {
+    border: none;
+    box-shadow: 1px 1px black;
+    /* border-radius: 0.3vw; */
+    width: 58.4vw;
+    height: 5.4vw;
+    opacity: 90%;
+    background-color: #fff;
 }
 .form1 textarea {
     width: 57.5vw;
     height: 40vw;
+}
+.form1 textarea:hover {
+    background-color: #fff;
 }
 .form1 button {
     width: 19.6vw;
@@ -531,9 +562,12 @@ iframe {
 {
     flex-direction: column;
 }
+
 .followers img {
-    width: 12vw;
-    padding: 16px;
+
+    width: 16vw;
+    padding: 22px;
+
 }
 .address {
     display: flex;
@@ -568,7 +602,7 @@ iframe {
 .contacts {
     text-align: center;
     padding-top: 1vw;
-    line-height: 6vw;
+    line-height: 7.9vw;
     font-size: 3.8vw;
 }
 .followers {
@@ -576,6 +610,6 @@ iframe {
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
-    margin: 0px 17vw;
-    height: 37vw;
+    margin: 19px 17vw;
+    height: 43vw;
 }
