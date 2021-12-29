@@ -303,3 +303,17 @@ audio, canvas, progress, video {
     filter: invert(50%);
     width: 8vw;
 }
+
+/* ZIPPY TEAM */
+.section img {
+    width: 22vw;
+    height: 22vw;
+    border-radius: 13vw;
+}
+.account img {
+    width: 5vw;
+    height: 5vw;
+    margin: 0.3vw;
+    opacity: 0;
+    filter: invert(100%);
+}
