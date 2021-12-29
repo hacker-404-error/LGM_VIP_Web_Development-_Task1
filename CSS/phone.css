@@ -317,3 +317,100 @@ audio, canvas, progress, video {
     opacity: 0;
     filter: invert(100%);
 }
+.zippyteamheading {
+    font-size: 5vw;
+    padding-bottom: 3vw;
+    /* width: 36vw; */
+    margin-top: 4vw;
+    font-family: 'Concert One', cursive;
+}
+
+/* LIFE IN ZIPPY */
+.life_in_zippy_heading 
+{
+    font-size: 6vw;
+    padding-bottom: 1vw;
+    width: 36vw;
+    /* margin-top: 5vw; */
+    /* border: 2px solid red; */
+    font-family: 'Concert One', cursive;
+}
+.show_big img {
+    width: 81vw;
+}
+.slideshow img {
+    width: 14vw;
+}
+.lifeinzippy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vw;
+    background-color: rgba(197, 189, 189, 0.822);
+}
+#pre {
+    width: 4.6vw;
+    padding: 1.6vw 0px;
+    background-color: black;
+    margin-right: 1vw;
+    height: 9.5vw;
+}
+#nex {
+    width: 4.6vw;
+    padding: 1.6vw 0px;
+    background-color: black;
+    margin-left: 1vw;
+    height: 9.5vw;
+}
+#pre:hover
+{
+    width: 4.6vw;
+    padding: 1.6vw 0px;
+    background-color: rgba(54, 18, 214, 0.856);
+    margin-right: 1vw;
+    height: 9.5vw;
+}
+#nex:hover 
+{
+    width: 4.6vw;
+    padding: 1.6vw 0px;
+    background-color: rgba(54, 18, 214, 0.856);
+    margin-left: 1vw;
+    height: 9.5vw;
+}
+
+/* NEWS LETTER */
+.newsletter {
+    background-image: url("https://i.ibb.co/RCPjmqh/phone-background.png"); 
+    background-size: cover;
+    height: 35vw;
+}
+#signup {
+    font-size: 1.8vw;
+    height: 5.8vw;
+    width: 59vw;
+    opacity: 0.8;
+    margin-top: 2vw;
+}
+.btn {
+    height: 5.6vw;
+    width: 12vw;
+    opacity: 0.8;
+    background-color: #5822aff7;
+    color: white;
+    margin-top: 2vw;
+    font-size: 1.3vw;
+    border: none;
+}
+.btn:hover 
+{
+    height: 5.6vw;
+    width: 12vw;
+    opacity: 0.8;
+    color: white;
+    margin-top: 2vw;
+    font-size: 1.3vw;
+    border: none;
+    background-color: #f0c349ea;
+}

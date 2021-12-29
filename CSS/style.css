@@ -559,6 +559,7 @@ a
     padding-bottom: 3vw;
     /* width: 36vw; */
     margin-top: 4vw;
+    font-family: 'Concert One', cursive;
 }
 .zippyteam
 {
@@ -798,8 +799,9 @@ a
     font-size: 3vw;
     padding-bottom: 1vw;
     /* width: 36vw; */
-    margin-top: 2vw;
+    /* margin-top: 5vw; */
     /* border: 2px solid red;*/
+    font-family: 'Concert One', cursive;
 }
 .lifeinzippy
 {
@@ -807,6 +809,8 @@ a
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 65vw;
+    background-color: rgba(197, 189, 189, 0.822);
 }
 .show
 {
@@ -831,7 +835,7 @@ a
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-bottom: 20px;
+    padding-bottom: 1vw;
 }
 .show_big img
 {
@@ -856,65 +860,70 @@ a
 
 #pre:hover
 {
-    width: 45px;
-    padding: 25.5px 0px;
+    width: 3.2vw;
+    padding: 1.6vw 0px;
     background-color: rgba(54, 18, 214, 0.856);
-    margin-right: 15px;
+    margin-right: 1vw;
     transition: .5s ease;
-
 }
+
 #nex:hover
 {
-    width: 45px;
-    padding: 25.5px 0px;
+    width: 3.2vw;
+    padding: 1.6vw 0px;
     background-color: rgba(54, 18, 214, 0.856);
-    margin-left: 15px;
+    margin-left: 1vw;
     transition: .5s ease;
- 
 }
 /* NEWS LETTER SIGNUP  */
-.newsletter
-{
+.newsletter {
+    position:relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 5vw 0vw;
-    margin-top: 73px;
-    /* background-color: yellowgreen; */
-    /* background-image: url("/Images/background.jpg"); */
+    height: 27vw;
 }
 
-.news_letter_heading
-{
-    font-size: 62px;
-    /* margin-top: 87px; */
-    padding-bottom: 3vw;
+.news_letter_heading {
+    position: absolute;
+    font-size: 5vw;
+    margin-top: 3vw;
+    /* padding-bottom: 3vw; */
+    top: 0;
+    font-weight: bold;
 }
-.form
+.newsletter .form
 {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 2vw;
+
 }
 #signup
 {
-    font-size: 18pt;
-    height: 56px;
+    font-size: 1.8vw;
+    height: 3.8vw;
     width: 47vw;
     opacity: 0.8;
+    margin-top: 2vw;
 }
 .btn
 {
-    height: 56px;
+    height: 3.8vw;
     width: 7vw;
     opacity: 0.8;
     background-color: #5822aff7;
     color: white;
+    margin-top: 2vw;
+    font-size: 1.3vw;
+    border:none;
+
 }
 .btn:hover
 {
-    height: 56px;
+    height: 3.8vw;
     width: 7vw;
     opacity: 0.8;
     background-color: #f0c349ea;
