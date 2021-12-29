@@ -687,7 +687,7 @@ a
 
 .card1:hover,.card2:hover,.card3:hover
 {
-    background-image: url("/Images/puple.jpg");
+    background-image: url("https://i.ibb.co/WsFm9g3/puple.png");
     /* opacity:100%; */
     border-radius: 65%;
 }
