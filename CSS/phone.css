@@ -402,6 +402,7 @@ audio, canvas, progress, video {
     margin-top: 2vw;
     font-size: 1.3vw;
     border: none;
+    cursor: pointer;
 }
 .btn:hover 
 {
@@ -413,4 +414,39 @@ audio, canvas, progress, video {
     font-size: 1.3vw;
     border: none;
     background-color: #f0c349ea;
+    cursor: pointer;
+}
+
+/* BLOG */
+.blogheading {
+    font-size: 7vw;
+    margin-top: 2vw;
+    padding-bottom: 3vw;
+}
+.blog img {
+    width: 28vw;
+}
+.blog-topic {
+    padding-top: 1vw;
+    width: 26.2vw;
+    text-align: center;
+    font-size: 2vw;
+}
+.blog-date {
+    padding: 1vw;
+    opacity: 0.5;
+    font-size: 1.7vw;
+}
+.blog-info {
+    text-align: center;
+    padding-bottom: 1vw;
+    width: 30vw;
+    font-size: 1.9vw;
+}
+.readmore {
+    width: 14vw;
+    height: 4.4vw;
+    background-color: #d1cbcbbf;
+    cursor: pointer;
+    font-size: 1.7vw;
 }
