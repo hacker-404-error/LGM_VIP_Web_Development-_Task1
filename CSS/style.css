@@ -1002,60 +1002,61 @@ a
 }
 
 /* CONTACT \ MAP  */
-.contact_heading
-{
-    padding-left: 72px;
-    font-size: 30px;
+.contact_heading {
+    padding-left: 4vw;
+    font-size: 2vw;
     font-weight: bold;
+    padding-top: 3vw;
 }
-.contact_map
-{
+.contact_map {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-top: 90px;
+    margin-top: 6vw;
     /* background-color: rgba(226, 226, 0, 0.822); */
 }
-iframe
-{
-    width: 52vw;
-    height: 39vw;
+iframe {
+    width: 51.9vw;
+    height: 40.3vw;
+    margin-bottom: 0.3vw;
 }
-.contact
-{
-    
+.contact {
     width: 47vw;
-    font-size: 18px;
+    font-size: 1.1vw;
     background-color: rgb(223 220 21);
     /* height: 39.1vw; */
-    padding: 21px 0px;
+    margin: 21px 0px;
+    height: 40.3vw;
+    margin-top: 0.6vw;
 }
 .form1 button
 {
-    width: 23vw;
+    width: 19.6vw;
     border: none;
     /* background-color: rgb(199, 201, 238); */
     box-shadow: 1px 1px black;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 0.3vw;
+    margin-top: 0.6vw;
 
 }
-.form1
-{
+.form1 {
     display: flex;
     /* justify-content: center; */
     align-items: center;
-    padding-left: 76px;
+    padding-left: 4.2vw;
 }
-.form1 input, .form1 textarea
-{
-    border:none;
+.form1 input, .form1 textarea {
+    border: none;
     box-shadow: 1px 1px black;
-    border-radius: 5px;
+    border-radius: 0.3vw;
 }
-.form1 label
+.form1 textarea
 {
-    font-size: 15px;
+    width:19.5vw;
+}
+.form1 label {
+    font-size: 1vw;
 }
 /* FOOTER */
 
