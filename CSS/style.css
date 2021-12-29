@@ -582,6 +582,10 @@ a
     align-items: center;
     padding-bottom: 1.5vw;
 }
+.section2
+{
+    padding-top:1vw;
+}
 .card1, .card2, .card3
 {
     display: flex;
@@ -589,16 +593,26 @@ a
     justify-content: center;
     align-items: center;
 }
-.name, .information
+.name, .information 
 {
     text-align: center;
-    padding-top: 0.7vw;
+    /* padding-top: 0.7vw; */
+    font-size: 1.5vw;
+    font-family: 'Concert One', cursive;
 }
-.section img
+.name
 {
-    width: 240px;
-    height: 240px;
-    border-radius: 65%;
+    padding-top:1.5vw;
+}
+.information
+{
+    opacity: 30%;
+}
+.section img 
+{
+    width: 16vw;
+    height: 16vw;
+    border-radius: 13vw;
 }
 .section1-card1, .section1-card2, .section1-card3
 {
@@ -608,8 +622,23 @@ a
 {
     padding-right: 6vw;
 }
-
-.accounthover1
+.account img 
+{
+    width: 3vw;
+    height: 3vw;
+    margin: 0.3vw;
+    opacity: 0;
+    filter: invert(100%);
+}
+.accounthover1, .accounthover2, .accounthover3
+{
+    position:absolute;
+}
+.accounthover4, .accounthover5, .accounthover6
+{
+    position:absolute;
+} 
+/* .accounthover1
 {
     position: absolute;
     top: 14.9vw;
@@ -650,32 +679,31 @@ a
     top: 38vw;
     right: 25vw;
     opacity:0;
-}
-
-.account img, .account2 img
-{
-    width: 5vw;
-    height: 5vw;
-}
-.account2
-{
-    padding-left: 49px;
-}
+    
+} */
 
 
-.card1:hover
+
+
+.card1:hover,.card2:hover,.card3:hover
 {
     background-image: url("/Images/puple.jpg");
-    opacity:1;
+    /* opacity:100%; */
     border-radius: 65%;
-    /* transition: .5s ease; */
 }
-.card1:hover img
+
+.card1:hover img,.card2:hover img,.card3:hover img
 {
-    opacity: 0.69;
-    border-radius: 65%;
-    transition: .5s ease;
+    opacity: 40%;
+    /* border-radius: 65%; */
+    transition: .2s ease;
 }
+.account img:hover
+{
+    opacity: 100%;
+}
+
+/*
 .accounthover1:hover
 {
     position: absolute;
@@ -692,16 +720,18 @@ a
     opacity:1;
     transition: .5s ease;
 }
+*/
 
 
-
+/*
 .card2:hover
 {
     background-image: url("/Images/puple.jpg");
     opacity:1;
     border-radius: 65%;
-    /* transition: .5s ease; */
+   
 }
+
 .card2:hover img
 {
     opacity: 0.69;
@@ -735,8 +765,9 @@ a
     background-image: url("/Images/puple.jpg");
     opacity:1;
     border-radius: 65%;
-    /* transition: .5s ease; */
+   
 }
+
 .card3:hover img
 {
     opacity: 0.69;
@@ -758,7 +789,7 @@ a
     right: 25vw;
     opacity:1;
     transition: .5s ease;
-}
+} */
 
 
 /* LIFE IN ZIPPY */
