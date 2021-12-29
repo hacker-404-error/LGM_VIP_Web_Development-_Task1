@@ -999,8 +999,17 @@ a
     background-color: #d1cbcbbf;
     cursor: pointer;
     font-size: 1vw;
+    border: none;
 }
-
+.readmore:hover {
+    width: 10vw;
+    height: 3vw;
+    background-color: #6d31db;
+    cursor: pointer;
+    font-size: 1vw;
+    border: none;
+    color: rgb(247, 247, 247);
+}
 /* CONTACT \ MAP  */
 .contact_heading {
     padding-left: 4vw;
@@ -1036,9 +1045,10 @@ iframe {
     /* background-color: rgb(199, 201, 238); */
     box-shadow: 1px 1px black;
     cursor: pointer;
-    border-radius: 0.3vw;
+    /* border-radius: 0.3vw; */
     margin-top: 0.6vw;
-
+    background-color: rgb(50, 7, 119);
+    color:white
 }
 .form1 {
     display: flex;
@@ -1049,7 +1059,8 @@ iframe {
 .form1 input, .form1 textarea {
     border: none;
     box-shadow: 1px 1px black;
-    border-radius: 0.3vw;
+    /* border-radius: 0.3vw; */
+    width: 19.4vw;
 }
 .form1 textarea
 {
@@ -1068,15 +1079,14 @@ iframe {
     align-items: center;
     margin-top: 8vw;
 }
-.address
-{
+.address {
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
     width: 15vw;
     align-items: center;
-    padding-right: 15px;
+    padding-right: 1vw;
     height: 11vw;
 }
 .followers
@@ -1103,26 +1113,24 @@ iframe {
     text-align: center;
     height: 11vw;
 }
-.location
-{
+.location {
     text-align: center;
-    padding-top: 10px;
-    line-height: 30px;
+    padding-top: 1vw;
+    line-height: 2vw;
 }
-.contacts
-{
+.contacts {
     text-align: center;
-    padding-top: 10px;    
-    line-height: 30px;
+    padding-top: 1vw;
+    line-height: 2vw;
 }
 .followers img
 {
-    width: 66px;
+    width: 5vw;
     padding: 14px;
 }
 .address-heading, .followers-heading, .contact-heading
 {
-    font-size: large;
+    font-size: 1.4vw;
     font-weight: bolder;
 }
 
