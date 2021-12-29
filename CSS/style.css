@@ -520,8 +520,12 @@ a
 }
 .title
 {
-    margin-right: 21vw;
+    margin-right: 19.9vw;
 
+}
+.title, .time
+{
+    font-size: 1.2vw;
 }
 .absolute
 {
